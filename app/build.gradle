@@ -23,6 +23,12 @@ android {
     compileSdkVersion 28
 
 
+
+    buildToolsVersion = "30.0.2"
+
+   
+
+
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
         // thoroughly!
