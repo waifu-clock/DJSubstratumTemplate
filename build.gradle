@@ -5,14 +5,14 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.0'
+        classpath 'com.android.tools.build:gradle:7.2.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 tasks {
     wrapper {
-        gradleVersion = "5.5"
+        gradleVersion = "7.3.3"
         distributionType = Wrapper.DistributionType.ALL
     }
 }
